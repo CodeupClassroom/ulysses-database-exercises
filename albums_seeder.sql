@@ -1,3 +1,5 @@
+TRUNCATE albums;
+
 INSERT INTO albums(
     artist, name, release_date, genre, sales
 ) VALUES
