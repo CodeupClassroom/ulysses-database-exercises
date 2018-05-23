@@ -10,7 +10,7 @@ ORDER BY first_name;
 SELECT *
 FROM employees
 WHERE first_name IN ('Vidya', 'Irena', 'Maya')
-ORDER BY first_name, last_name
+ORDER BY first_name, last_name;
 
 # Change the order by clause so that you order by last name before first name. Your first result should still be Irena Acton but now the last result should be Maya Zyda.
 SELECT *
@@ -21,8 +21,7 @@ ORDER BY last_name, first_name;
 # Update your queries for employees with 'E' in their last name to sort the results by their employee number. Your results should not change!
 SELECT *
 FROM employees
-WHERE last_name LIKE '%E%'
-ORDER BY emp_no;
+WHERE last_name LIKE '%E%';
 
 # Change the query for employees hired in the 90s and born on Christmas such that the first result is the oldest employee who was hired last. It should be Khun Bernini.
 SELECT *
